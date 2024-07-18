@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-section {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h2 {
+    font-size: 32px;
+    color: #f44336;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-group i {
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #d32f2f;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #f44336;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons i {
+    font-size: 18px;
+    color: #777;
+    cursor: pointer;
+}
+
+.right-section {
+    flex: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('E:/matbao.png') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.right-section .content {
+    max-width: 400px;
+}
+
+.right-section .input-group {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.right-section .input-group input {
+    background: none;
+    color: #fff;
+}
+
+.right-section .input-group i {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+    color: #777;
+}
+
+label {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
